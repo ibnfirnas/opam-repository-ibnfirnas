@@ -1,0 +1,1 @@
+A simpler request/response API around Cohttp_async.Client.
