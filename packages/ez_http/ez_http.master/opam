@@ -1,6 +1,7 @@
 opam-version: "1"
 maintainer: "siraaj@khandkar.net"
 build: [
+  ["oasis" "setup"]
   [make "build"]
   [make "install"]
 ]
