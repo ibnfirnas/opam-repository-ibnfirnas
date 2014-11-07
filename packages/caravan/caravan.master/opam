@@ -11,6 +11,7 @@ depends: [
   "ocamlfind"
   "oasis"
   "core"
+  "cohttp"
   "async"
   "textutils"
 ]
