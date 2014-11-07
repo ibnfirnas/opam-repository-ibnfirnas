@@ -1,0 +1,19 @@
+opam-version: "1"
+maintainer: "siraaj@khandkar.net"
+build: [
+  [make "setup.ml"]
+  ["./configure" "--prefix" prefix]
+  [make "build"]
+  [make "install"]
+]
+depends: [
+  "async"
+  "async_shell"
+  "async_smtp"
+  "caravan"
+  "core"
+  "core_extended"
+  "cryptokit"
+  "email_message"
+  "ocamlfind"
+]
